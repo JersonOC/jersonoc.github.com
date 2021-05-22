@@ -1,0 +1,6 @@
+body{
+    background-image: url("ardilla.jpg");
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-attachment: scroll;
+}
