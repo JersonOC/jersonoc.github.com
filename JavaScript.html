@@ -5,18 +5,22 @@
     
 </head>
 <body>
-    <h1>Pagina de Bienvenida</h1>
-    <p id="mensaje" style="color: red;">Este es un parrafo</p>
-    <script>
-        //Escribe Certus en el parrafo cuyo id es "mensaje"
-        document.getElementById("mensaje").innerHTML="Certus";
-        //Escribe el elemento div en esta posicion directamente en la pagina
-        document.write("<div style='background-color:#776199;' >Bienvedido</div>");
-        //Muestra un mensaje de alerta
-        window.alert("Bienvenido a Certus");
-        //Escribe en la consola del navegador un mensaje
-        console.log("Mensaje en la consola del navegador");
+   <div id="mensaje"></div>
+   <div id="resultado"></div>
+   <script>
+       //Declara una llamada del tipo string
+       var mensaje = "Bienvenido a Certus";
+       //Escribe el mensaje en la pagina web
+       document.getElementById("mensaje") .innerHTML=mensaje;
+       //Declara un variable llamada Valor1 del tipo numerica
+       var valor1 = 10;
+       //Declara un variable llamada Valor2 del tipo numerica
+       var valor2 = 30;
+       //Suma los valores valor1 y valor2
+       var suma = valor1 + valor2;
+       //Escribe el resultado de la suma en la pagina web
+       document.getElementById("resultado").innerHTML="Resultado: "+suma;
+   </script>
 
-    </script>
 </body>
 </html>
